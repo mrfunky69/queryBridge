@@ -1,0 +1,6 @@
+langgraph
+pydantic
+pandas
+duckdb
+hdbcli
+google-cloud-bigquery
