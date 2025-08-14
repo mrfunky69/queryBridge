@@ -1,0 +1,151 @@
+Vendor_ID,Vendor_Name,Invoice_Number,Invoice_Date,Payment_Date,Invoice_Amount,Payment_Status,Category,Related_Revenue,Profit_or_Loss,P_L_Status
+V4000,LogiMart,INV-500,2025-04-02,2025-05-04,11749,Paid,Office Supplies,26823,15074,Profit
+V4001,Paper & Co.,INV-501,2024-06-27,2024-04-14,17091,Unpaid,Office Supplies,13471,-3620,Loss
+V4002,Paper & Co.,INV-502,2024-10-04,2025-07-19,15167,Partially Paid,Office Supplies,22895,7728,Profit
+V4003,Paper & Co.,INV-503,2024-07-09,2024-06-29,9725,Partially Paid,Office Supplies,12891,3166,Profit
+V4004,Tech Solutions,INV-504,2024-03-16,2024-05-31,5472,Paid,Consulting,18950,13478,Profit
+V4005,LogiMart,INV-505,2024-01-16,2024-09-18,13138,Partially Paid,IT Services,25522,12384,Profit
+V4006,DataWave,INV-506,2024-01-16,2024-06-11,12175,Partially Paid,Logistics,16374,4199,Profit
+V4007,Global IT,INV-507,2024-07-22,2024-08-04,13794,Unpaid,Logistics,24347,10553,Profit
+V4008,LogiMart,INV-508,2024-06-18,2024-05-08,5022,Paid,Office Supplies,19089,14067,Profit
+V4009,Paper & Co.,INV-509,2024-04-07,2025-02-20,10710,Partially Paid,Office Supplies,24767,14057,Profit
+V4010,LogiMart,INV-510,2025-05-26,2024-01-21,6722,Partially Paid,Office Supplies,24663,17941,Profit
+V4011,DataWave,INV-511,2025-01-29,2024-03-14,11584,Paid,Consulting,15951,4367,Profit
+V4012,LogiMart,INV-512,2024-09-20,2024-10-17,11152,Partially Paid,Logistics,24067,12915,Profit
+V4013,SupplyPro,INV-513,2024-07-13,2025-04-04,12599,Paid,Office Supplies,23887,11288,Profit
+V4014,SupplyPro,INV-514,2025-04-06,2024-06-19,13270,Unpaid,Consulting,14621,1351,Profit
+V4015,Paper & Co.,INV-515,2025-04-04,2024-09-12,17077,Partially Paid,IT Services,8992,-8085,Loss
+V4016,LogiMart,INV-516,2025-02-21,2025-07-25,9779,Unpaid,IT Services,19249,9470,Profit
+V4017,Fast Freight,INV-517,2024-07-16,2024-12-01,3751,Paid,IT Services,23737,19986,Profit
+V4018,Paper & Co.,INV-518,2025-01-17,2024-10-29,8204,Unpaid,Logistics,16718,8514,Profit
+V4019,SupplyPro,INV-519,2024-03-13,2025-05-09,10513,Unpaid,Office Supplies,9199,-1314,Loss
+V4020,DataWave,INV-520,2024-05-21,2025-05-18,12064,Unpaid,Office Supplies,14512,2448,Profit
+V4021,Tech Solutions,INV-521,2024-03-26,2024-09-18,2131,Partially Paid,Logistics,14296,12165,Profit
+V4022,Tech Solutions,INV-522,2024-01-18,2025-02-12,17397,Partially Paid,Consulting,18163,766,Profit
+V4023,DataWave,INV-523,2024-09-28,2025-01-08,6973,Paid,Consulting,26746,19773,Profit
+V4024,Fast Freight,INV-524,2024-09-08,2024-01-30,12850,Unpaid,IT Services,10676,-2174,Loss
+V4025,DataWave,INV-525,2024-06-08,2025-06-06,8188,Paid,Office Supplies,6363,-1825,Loss
+V4026,Fast Freight,INV-526,2024-08-19,2024-08-22,6407,Paid,Logistics,11908,5501,Profit
+V4027,Fast Freight,INV-527,2024-10-27,2025-05-22,7357,Paid,IT Services,17207,9850,Profit
+V4028,SupplyPro,INV-528,2025-06-08,2024-06-17,15151,Paid,Logistics,24044,8893,Profit
+V4029,Tech Solutions,INV-529,2024-10-31,2025-07-02,6882,Partially Paid,Logistics,20675,13793,Profit
+V4030,DataWave,INV-530,2025-07-01,2024-01-08,11595,Unpaid,Office Supplies,28859,17264,Profit
+V4031,Paper & Co.,INV-531,2025-04-19,2024-12-04,5294,Partially Paid,IT Services,25012,19718,Profit
+V4032,Office Depot,INV-532,2024-02-02,2024-03-05,7154,Paid,Office Supplies,25772,18618,Profit
+V4033,Office Depot,INV-533,2024-05-04,2025-03-01,7908,Unpaid,Logistics,18387,10479,Profit
+V4034,DataWave,INV-534,2025-07-04,2024-04-30,10692,Partially Paid,IT Services,15538,4846,Profit
+V4035,DataWave,INV-535,2024-04-28,2025-01-21,8627,Paid,Logistics,28370,19743,Profit
+V4036,Fast Freight,INV-536,2024-12-27,2025-02-21,16482,Paid,Logistics,22294,5812,Profit
+V4037,Office Depot,INV-537,2024-11-03,2024-12-20,8011,Unpaid,Consulting,24224,16213,Profit
+V4038,Global IT,INV-538,2024-07-17,2024-09-28,2671,Paid,Logistics,19389,16718,Profit
+V4039,Fast Freight,INV-539,2024-08-27,2024-05-10,5893,Unpaid,Consulting,15006,9113,Profit
+V4040,DataWave,INV-540,2025-04-22,2024-02-07,5372,Paid,Consulting,19085,13713,Profit
+V4041,Fast Freight,INV-541,2025-03-10,2024-02-09,8693,Partially Paid,Office Supplies,13629,4936,Profit
+V4042,Paper & Co.,INV-542,2025-03-21,2024-06-13,18009,Partially Paid,Office Supplies,12432,-5577,Loss
+V4043,Paper & Co.,INV-543,2024-12-03,2024-10-04,4654,Unpaid,Office Supplies,27046,22392,Profit
+V4044,LogiMart,INV-544,2024-02-20,2024-10-07,2368,Unpaid,Logistics,9448,7080,Profit
+V4045,LogiMart,INV-545,2024-07-06,2024-01-17,6324,Paid,Consulting,18388,12064,Profit
+V4046,LogiMart,INV-546,2024-04-03,2025-05-13,8736,Partially Paid,Logistics,24733,15997,Profit
+V4047,SupplyPro,INV-547,2024-02-07,2025-03-27,9955,Partially Paid,Office Supplies,24738,14783,Profit
+V4048,Paper & Co.,INV-548,2024-05-05,2024-05-17,2897,Unpaid,IT Services,16806,13909,Profit
+V4049,Tech Solutions,INV-549,2025-01-05,2024-12-31,8578,Paid,Office Supplies,25273,16695,Profit
+V4050,DataWave,INV-550,2024-11-02,2024-10-24,19130,Partially Paid,Logistics,14813,-4317,Loss
+V4051,DataWave,INV-551,2024-02-18,2025-02-18,1146,Paid,Consulting,24785,23639,Profit
+V4052,Tech Solutions,INV-552,2025-07-17,2024-06-23,10491,Unpaid,Logistics,28445,17954,Profit
+V4053,Paper & Co.,INV-553,2024-09-25,2024-09-05,6992,Unpaid,Office Supplies,16505,9513,Profit
+V4054,LogiMart,INV-554,2024-11-04,2025-06-04,11520,Partially Paid,Logistics,13685,2165,Profit
+V4055,LogiMart,INV-555,2024-03-28,2024-06-13,3600,Unpaid,Office Supplies,16614,13014,Profit
+V4056,DataWave,INV-556,2024-11-20,2024-07-19,5294,Paid,IT Services,8889,3595,Profit
+V4057,Paper & Co.,INV-557,2024-08-10,2024-01-03,10436,Partially Paid,IT Services,17614,7178,Profit
+V4058,Global IT,INV-558,2024-03-05,2024-01-07,6640,Paid,Office Supplies,25396,18756,Profit
+V4059,DataWave,INV-559,2024-07-09,2024-07-16,9982,Partially Paid,Logistics,22927,12945,Profit
+V4060,Tech Solutions,INV-560,2025-05-27,2024-06-26,5116,Unpaid,IT Services,9308,4192,Profit
+V4061,Tech Solutions,INV-561,2024-08-08,2024-11-04,3819,Unpaid,IT Services,19741,15922,Profit
+V4062,Paper & Co.,INV-562,2024-11-30,2024-02-11,1554,Partially Paid,Consulting,22302,20748,Profit
+V4063,Fast Freight,INV-563,2025-06-24,2025-02-27,18448,Partially Paid,IT Services,7643,-10805,Loss
+V4064,Tech Solutions,INV-564,2025-04-11,2024-02-06,2003,Unpaid,Office Supplies,29668,27665,Profit
+V4065,Tech Solutions,INV-565,2024-01-31,2024-01-29,5961,Partially Paid,Consulting,13121,7160,Profit
+V4066,Fast Freight,INV-566,2024-03-14,2025-02-10,2349,Partially Paid,Consulting,6331,3982,Profit
+V4067,LogiMart,INV-567,2025-04-24,2024-07-11,16695,Partially Paid,Logistics,26685,9990,Profit
+V4068,DataWave,INV-568,2025-03-15,2024-01-28,13464,Unpaid,Office Supplies,6543,-6921,Loss
+V4069,Tech Solutions,INV-569,2024-04-28,2024-09-30,3414,Unpaid,Consulting,29492,26078,Profit
+V4070,Paper & Co.,INV-570,2024-09-02,2025-04-03,17882,Paid,Logistics,13167,-4715,Loss
+V4071,Tech Solutions,INV-571,2024-08-11,2024-05-26,6549,Partially Paid,Office Supplies,8592,2043,Profit
+V4072,LogiMart,INV-572,2024-06-14,2025-05-13,15022,Paid,Consulting,28692,13670,Profit
+V4073,DataWave,INV-573,2024-08-24,2024-07-31,13068,Paid,Consulting,10111,-2957,Loss
+V4074,Global IT,INV-574,2024-03-03,2025-05-28,3987,Unpaid,Consulting,26716,22729,Profit
+V4075,Paper & Co.,INV-575,2025-01-31,2025-02-09,1376,Paid,Office Supplies,22525,21149,Profit
+V4076,Global IT,INV-576,2024-03-24,2024-07-06,15212,Partially Paid,Office Supplies,17365,2153,Profit
+V4077,Paper & Co.,INV-577,2025-01-11,2024-10-14,3188,Partially Paid,Consulting,26663,23475,Profit
+V4078,SupplyPro,INV-578,2024-08-20,2024-10-22,13755,Partially Paid,Office Supplies,19712,5957,Profit
+V4079,Global IT,INV-579,2024-06-22,2025-02-07,4894,Unpaid,Office Supplies,8600,3706,Profit
+V4080,LogiMart,INV-580,2024-10-15,2024-03-27,4582,Paid,Office Supplies,14152,9570,Profit
+V4081,DataWave,INV-581,2024-06-25,2024-11-27,11179,Partially Paid,IT Services,25120,13941,Profit
+V4082,Tech Solutions,INV-582,2024-06-26,2025-04-10,10741,Unpaid,IT Services,13865,3124,Profit
+V4083,SupplyPro,INV-583,2024-11-01,2024-11-23,11063,Unpaid,Consulting,28794,17731,Profit
+V4084,DataWave,INV-584,2025-07-14,2025-06-16,15739,Unpaid,Office Supplies,8447,-7292,Loss
+V4085,LogiMart,INV-585,2024-06-23,2025-04-08,18745,Paid,IT Services,26258,7513,Profit
+V4086,SupplyPro,INV-586,2024-04-19,2024-03-08,13764,Unpaid,Office Supplies,27038,13274,Profit
+V4087,Tech Solutions,INV-587,2024-05-31,2025-02-16,19468,Unpaid,Logistics,10193,-9275,Loss
+V4088,Fast Freight,INV-588,2024-02-04,2024-01-19,7223,Partially Paid,Logistics,29012,21789,Profit
+V4089,DataWave,INV-589,2024-03-04,2025-03-03,16529,Unpaid,Consulting,17524,995,Profit
+V4090,Global IT,INV-590,2024-01-17,2025-02-10,7002,Unpaid,Consulting,29883,22881,Profit
+V4091,DataWave,INV-591,2025-02-24,2024-08-01,7712,Partially Paid,Consulting,24543,16831,Profit
+V4092,SupplyPro,INV-592,2025-02-03,2024-05-10,9220,Paid,Consulting,11088,1868,Profit
+V4093,Office Depot,INV-593,2024-02-27,2024-01-17,11897,Paid,IT Services,23503,11606,Profit
+V4094,LogiMart,INV-594,2024-03-13,2024-06-30,11713,Unpaid,IT Services,8896,-2817,Loss
+V4095,Office Depot,INV-595,2024-02-25,2024-04-03,6035,Unpaid,IT Services,24437,18402,Profit
+V4096,Fast Freight,INV-596,2025-02-16,2025-05-10,3820,Partially Paid,IT Services,22513,18693,Profit
+V4097,LogiMart,INV-597,2024-03-29,2025-07-28,2892,Unpaid,IT Services,22513,19621,Profit
+V4098,Tech Solutions,INV-598,2024-06-19,2024-09-03,3291,Paid,IT Services,6945,3654,Profit
+V4099,Office Depot,INV-599,2024-11-18,2024-09-30,16621,Partially Paid,Office Supplies,7590,-9031,Loss
+V4100,Tech Solutions,INV-600,2024-02-22,2024-07-11,9327,Unpaid,Consulting,14388,5061,Profit
+V4101,DataWave,INV-601,2024-11-02,2024-02-13,12115,Unpaid,Office Supplies,8212,-3903,Loss
+V4102,Tech Solutions,INV-602,2025-01-17,2024-11-11,14555,Partially Paid,Office Supplies,12371,-2184,Loss
+V4103,Paper & Co.,INV-603,2024-04-25,2025-05-27,17291,Partially Paid,Logistics,18884,1593,Profit
+V4104,DataWave,INV-604,2025-04-19,2024-08-01,9042,Unpaid,Logistics,7412,-1630,Loss
+V4105,Tech Solutions,INV-605,2024-11-01,2024-10-04,15571,Partially Paid,Office Supplies,27667,12096,Profit
+V4106,Tech Solutions,INV-606,2024-09-09,2024-07-04,12760,Paid,Consulting,17859,5099,Profit
+V4107,Global IT,INV-607,2025-06-04,2024-09-16,19690,Partially Paid,Consulting,24342,4652,Profit
+V4108,DataWave,INV-608,2025-02-05,2025-02-03,8233,Unpaid,Office Supplies,8755,522,Profit
+V4109,DataWave,INV-609,2025-06-10,2024-10-09,5229,Paid,Consulting,5865,636,Profit
+V4110,Tech Solutions,INV-610,2024-06-08,2024-01-14,19296,Partially Paid,Logistics,15942,-3354,Loss
+V4111,Tech Solutions,INV-611,2024-12-16,2024-03-17,1676,Paid,Logistics,5509,3833,Profit
+V4112,DataWave,INV-612,2025-04-22,2024-04-24,16996,Paid,Consulting,9152,-7844,Loss
+V4113,DataWave,INV-613,2024-06-04,2024-04-05,10469,Paid,IT Services,26434,15965,Profit
+V4114,Paper & Co.,INV-614,2024-08-03,2024-05-02,9569,Partially Paid,Logistics,29949,20380,Profit
+V4115,Global IT,INV-615,2024-12-04,2024-01-09,19697,Partially Paid,Logistics,13136,-6561,Loss
+V4116,DataWave,INV-616,2025-04-03,2024-01-22,7590,Paid,Consulting,10160,2570,Profit
+V4117,Global IT,INV-617,2024-06-09,2025-03-11,19467,Unpaid,Consulting,10648,-8819,Loss
+V4118,Tech Solutions,INV-618,2025-03-09,2024-01-17,4141,Partially Paid,Logistics,22760,18619,Profit
+V4119,DataWave,INV-619,2024-03-16,2025-05-16,12868,Paid,Office Supplies,13186,318,Profit
+V4120,Fast Freight,INV-620,2025-04-30,2024-12-23,1234,Paid,Logistics,28930,27696,Profit
+V4121,LogiMart,INV-621,2024-10-24,2024-04-29,10673,Paid,Logistics,11476,803,Profit
+V4122,Tech Solutions,INV-622,2024-03-15,2024-02-22,9490,Partially Paid,IT Services,5282,-4208,Loss
+V4123,Office Depot,INV-623,2024-06-14,2024-02-20,12794,Partially Paid,Office Supplies,27376,14582,Profit
+V4124,Tech Solutions,INV-624,2024-07-14,2024-04-03,11645,Unpaid,Office Supplies,23200,11555,Profit
+V4125,Paper & Co.,INV-625,2025-07-18,2025-03-27,9212,Partially Paid,IT Services,11954,2742,Profit
+V4126,DataWave,INV-626,2024-02-28,2024-10-23,11385,Paid,Logistics,6205,-5180,Loss
+V4127,Paper & Co.,INV-627,2024-05-27,2025-01-30,8968,Paid,Office Supplies,6257,-2711,Loss
+V4128,Office Depot,INV-628,2025-06-23,2025-04-06,6996,Partially Paid,Consulting,16653,9657,Profit
+V4129,Office Depot,INV-629,2025-05-06,2025-05-28,2079,Unpaid,Consulting,20570,18491,Profit
+V4130,SupplyPro,INV-630,2025-04-10,2024-04-22,18395,Unpaid,Consulting,7515,-10880,Loss
+V4131,LogiMart,INV-631,2024-08-27,2024-09-27,11723,Paid,Consulting,10126,-1597,Loss
+V4132,Fast Freight,INV-632,2024-01-15,2025-04-16,4588,Paid,Office Supplies,16671,12083,Profit
+V4133,DataWave,INV-633,2025-07-17,2024-05-23,3995,Unpaid,Office Supplies,28606,24611,Profit
+V4134,DataWave,INV-634,2025-03-13,2025-05-14,1851,Paid,Office Supplies,28762,26911,Profit
+V4135,LogiMart,INV-635,2024-11-26,2024-10-26,11185,Paid,Office Supplies,6007,-5178,Loss
+V4136,DataWave,INV-636,2025-01-26,2025-04-23,3881,Partially Paid,Consulting,19530,15649,Profit
+V4137,SupplyPro,INV-637,2024-08-08,2024-08-27,15182,Partially Paid,Office Supplies,17108,1926,Profit
+V4138,Global IT,INV-638,2025-06-04,2024-04-07,14509,Unpaid,Consulting,22612,8103,Profit
+V4139,Tech Solutions,INV-639,2024-02-18,2024-10-03,2839,Partially Paid,IT Services,6109,3270,Profit
+V4140,Tech Solutions,INV-640,2024-10-06,2025-06-25,7168,Unpaid,IT Services,11381,4213,Profit
+V4141,Fast Freight,INV-641,2024-11-07,2025-02-02,15858,Unpaid,Office Supplies,8529,-7329,Loss
+V4142,Paper & Co.,INV-642,2024-09-17,2024-04-19,8591,Unpaid,IT Services,7398,-1193,Loss
+V4143,Paper & Co.,INV-643,2024-12-05,2024-11-16,7395,Unpaid,Office Supplies,22726,15331,Profit
+V4144,SupplyPro,INV-644,2024-08-05,2024-03-07,11908,Paid,Logistics,22688,10780,Profit
+V4145,Fast Freight,INV-645,2024-08-09,2025-07-30,6635,Partially Paid,Consulting,23269,16634,Profit
+V4146,Tech Solutions,INV-646,2025-02-18,2024-08-18,3466,Paid,Logistics,10205,6739,Profit
+V4147,LogiMart,INV-647,2025-05-01,2024-03-22,1505,Partially Paid,Consulting,15960,14455,Profit
+V4148,LogiMart,INV-648,2024-09-10,2024-12-05,12994,Partially Paid,Office Supplies,21460,8466,Profit
+V4149,Tech Solutions,INV-649,2025-01-19,2025-06-16,1840,Paid,Office Supplies,13834,11994,Profit

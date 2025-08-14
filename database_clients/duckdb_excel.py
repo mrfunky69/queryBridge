@@ -9,14 +9,20 @@ MOCK_SALES_DATA = pd.DataFrame({
     "amount": [100.0, 200.0, 150.0]
 })
 
-def execute_sql(sql_query):
-    con = duckdb.connect(database=':memory:')
-    con.register("sales_data", MOCK_SALES_DATA)
+def connect():
+    # Create in-memory DuckDB connection
+    con = duckdb.connect()
+    return con
+
+def execute_sql(sql, con):
     try:
-        result_df = con.execute(sql_query).df()
-        return result_df.to_dict(orient="records")
+        result = con.execute(sql).fetchdf()
+        cols = list(result.columns)
+        rows = result.values.tolist()
+
+
+        print({"raw_table": {"cols": cols, "rows": rows}})
+        return {"raw_table": {"cols": cols, "rows": rows}}
     except Exception as e:
-        return {
-            "Error": True,
-            "Message" : f"❌ SQL Execution Error: {str(e)}"
-            }
+        print(f"Error executing DuckDB query: {e}")
+        return {"raw_table": {"cols": [], "rows": []}}

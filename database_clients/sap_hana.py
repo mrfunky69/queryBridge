@@ -17,15 +17,15 @@ def connect():
         print("Error ,", e)
         #raise Exception("HANA connection failed")
 
+def hana_query(sql, conn) -> dict:
 
-def execute_sql(query, conn):
-    print("********** RUNNING SQL ************", query, conn)
-    try:
-        cursor = conn.cursor()
-        cursor.execute(query)
-        result = cursor.fetchall()
-        columns = [col[0] for col in cursor.description]
-        return {"columns": columns, "rows": result}
+    conn = connect()
+    try: 
+        cur = conn.cursor()
+        cur.execute(sql)
+        cols = [d[0] for d in cur.description]
+        rows = cur.fetchall()
+        conn.close()
+        return {"raw_table": {"cols": cols, "rows": rows}}
     except Exception as e:
-        print("Error execute_sql hana \n", e)
-        return {"Error": True}
+        print("error in hana_query : ", e)

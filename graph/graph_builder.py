@@ -1,34 +1,57 @@
 # graph/graph_builder.py
 
 from langgraph.graph import StateGraph, END
-from graph.nodes.llm_router import llm_router
-from graph.nodes.fallback_handler import fallback_handler
-from graph.nodes.table_metadata_fetcher import table_metadata_fetcher
+from graph.state_schema import State
+from langgraph.graph import StateGraph, START, END
+from graph.nodes.clarify import clarify
 from graph.nodes.sql_generator import sql_generator
-from graph.nodes.sql_executor import sql_executor
-from graph.state_schema import ChatState
+from graph.nodes.post_process import postprocess
+from graph.nodes.wants_data import wants_data
+from graph.nodes.route_after_sql_generator import route_after_sql_generator
+from graph.nodes.entry import entry
+
+
 
 def build_graph():
-    builder = StateGraph(state_schema=ChatState)
+    graph_builder = StateGraph(state_schema=State)
 
-    builder.add_node("llm_router", llm_router)
-    builder.add_node("fallback_handler", fallback_handler)
-    builder.add_node("table_metadata_fetcher", table_metadata_fetcher)
-    builder.add_node("sql_generator", sql_generator)
-    builder.add_node("sql_executor", sql_executor)
 
-    builder.set_entry_point("llm_router")
+    graph_builder.add_node("sql_generator", sql_generator)
+    graph_builder.add_node("postprocess",   postprocess)
+    graph_builder.add_node("clarify",       clarify)
+    graph_builder.add_node("wants_data",    wants_data)
+    graph_builder.add_node("route_after_sql_generator",route_after_sql_generator)
+    graph_builder.add_node("entry",         entry)
 
-    builder.add_conditional_edges(
-        "llm_router",
-        lambda state: "fallback_handler" if not state.get("is_sql_prompt") else "table_metadata_fetcher"
+   
+
+    # 3) Replace the two START→X edges with one conditional edge out of chatbot
+    # graph_builder.add_edge(START, "chatbot")
+    graph_builder.add_edge(START, "entry")  # entry point
+    graph_builder.add_conditional_edges(
+        "entry",
+        wants_data,
+        {
+        True: "sql_generator",  # if router returns this
+        False:       "clarify",        # if router returns this
+        END:              END              # allow router to short-circuit to END if desired
+        }
     )
 
-    builder.add_edge("fallback_handler", END)
+    graph_builder.add_conditional_edges(
+        "sql_generator",
+        route_after_sql_generator,
+        {
+            True: "clarify",
+            False: "postprocess",
+            END:    END
+        }
+    )
 
-    builder.add_edge("table_metadata_fetcher", "sql_generator")
-    builder.add_edge("sql_generator", "sql_executor")
-    builder.add_edge("sql_executor", END)
+    # 4) Chain your SQL path so it loops back into chatbot
+    # graph_builder.add_edge("sql_generator", "postprocess")      # for SAP_HANA
+    graph_builder.add_edge("postprocess",   END)
+    graph_builder.add_edge("clarify",       END)
 
 
-    return builder.compile()
+    return graph_builder.compile()
