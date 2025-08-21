@@ -1,2 +1,4 @@
 .env
 venv
+CONV_DEV.Json
+ca-bundle.crt
