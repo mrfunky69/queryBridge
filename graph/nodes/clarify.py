@@ -15,7 +15,7 @@ def clarify(state: State) -> dict:
         model="gpt-4.1",
         config=config,
         api_version="2024-10-21",
-        temperature=0.0,
+        temperature=0.7,
         max_tokens=128
     )
 
