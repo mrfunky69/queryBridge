@@ -42,21 +42,23 @@ Business data often lives in **different systems** (ERP, cloud warehouses, sprea
 - ✅ Lightweight, portable, and extensible (Snowflake, APIs, etc.)  
 
 ---
+Flow diagram
+
+ <img width="1873" height="1381" alt="Screenshot 2025-08-22 at 3 50 42 PM" src="https://github.com/user-attachments/assets/88768fcb-8d40-4f34-8411-c50ee1b70f72" />
 
 ## 🚀 Running the Project  
 
 1. **Clone this repo**  
    ```bash
    git clone https://github.com/<your-username>/querybridge.git
+
    cd querybridge
 
 2. **Create a virtual environment, install dependencies, and connect to a demo DB**
    ```bash
-  Copy
-  Edit
-  python -m venv env
-  source env/bin/activate   # On Windows: env\Scripts\activate
-  pip install -r requirements.txt
+     python -m venv env
+     source env/bin/activate   # On Windows: env\Scripts\activate
+     pip install -r requirements.txt
   # ⚠️ Update the config to connect to a demo database 
 # (SAP HANA, BigQuery, or Excel file)
 
